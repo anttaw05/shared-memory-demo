@@ -73,7 +73,7 @@ int main() {
     }
 
     // Cleanup
-    printf("Parent & Child process Cycle has reached 500, Execution Terminated!\n");
+    printf("Parent & Child process Cycle has reached 300, Execution Terminated!\n");
     printf("Wiping shared memory.\n");
     shmdt(shared_memory);
     shmctl(shmid, IPC_RMID, 0);
@@ -82,4 +82,5 @@ int main() {
     wait(NULL); // wait for child
     return 0;
 }
+
 

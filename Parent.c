@@ -50,7 +50,7 @@ int main() {
         exit(1);
     }
     if (pid == 0) {
-        execl("./childP5", "./childP5", NULL);
+        execl("./Child", "./Child", NULL);
         perror("execl failed");
         exit(1);
     }
@@ -82,3 +82,4 @@ int main() {
     wait(NULL); // wait for child
     return 0;
 }
+

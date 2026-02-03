@@ -2,12 +2,12 @@
 Minimal OS concurrency simulator with shared memory and semaphores. This project was completed as a small university assignment for the SYSC 4001 Operating systems course to demonstrate fundamentals of process management, shared memory, and semaphores in a Linux environment.
 
 # Features
-Forking a child process with **fork()** \n
-Child process executes a separate program via **exec()** (memory image replacement)
-Inter-process communication using **shared memory** (shmget, shmat)
-Mutual exclusion with **semaphores** (semget, semop)
-Synchronization of parent/child process cycles
-Clean termination and **memory cleanup**
+Forking a child process with **fork()**  
+Child process executes a separate program via **exec()** (memory image replacement)  
+Inter-process communication using **shared memory** (shmget, shmat)  
+Mutual exclusion with **semaphores** (semget, semop)  
+Synchronization of parent/child process cycles  
+Clean termination and **memory cleanup**  
 
 # Environment / Reqirements
 **Operating System:** Linux (Ubuntu recommended)

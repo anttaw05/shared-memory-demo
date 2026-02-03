@@ -3,5 +3,5 @@ if [ ! -d "bin" ]; then
 else
 	rm bin/*
 fi
-gcc -g -O0 -I . -o bin/main Part2.5.c
-gcc -g -O0 -I . -o bin/childP5 childP5.c
+gcc -g -O0 -I . -o bin/main Parent.c
+gcc -g -O0 -I . -o bin/Child Child.c
